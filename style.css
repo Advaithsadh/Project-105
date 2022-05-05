@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(55, 216, 162);
+}
+
+#capture{
+    width: 150px;
+    height: 40px;
+}
+
+#identify{
+    width: 150px;
+    height: 40px;
+}
+
+#camera{
+    width: 350px;
+    height: 300px;
+}
+
+#result{
+    width: 350px;
+    height: 300px;
+}

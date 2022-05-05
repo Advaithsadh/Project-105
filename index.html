@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Project 103</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+    </head>
+
+    <body onload="startcam()">
+
+        <center>
+          <hr>  <h1>IMAGE RECOGNITION</h1><hr>
+
+          <h3>Model is trained to identify:</h3><hr>
+          <h4>Father</h4><hr>
+          <h4>Mother</h4><hr>
+          <h4>Brother</h4><hr>
+
+          <h3>Webcam view - </h3>
+          <div id="camera"></div>
+
+          <div id="result"></div>
+
+          <button id="capture">Capture Image</button><br>
+
+          <button id="identify">Identify Image</button>
+
+          <h4>Object:</h4><h4 id="obj"></h4>
+
+          <h4>Accuracy:</h4><h4 id="acc"></h4>
+        </center>
+
+    </body>
+</html>
